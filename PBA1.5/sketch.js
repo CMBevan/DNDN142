@@ -3,21 +3,18 @@ function setup() {
   createCanvas(width,height);
   background(200);
   
-  //draw grid (challenge2)
-  line(0,height*.333, width,height*.333);
-  line(0,height*.667, width,height*.667);
-  line(width*.333,0,width*.333,height);
-  line(width*.667,0,width*.667,height);
-
-  //draw mini X (challenge3)
-  line(width*.333,height*.333,width*.667,height*.667);
-  line(width*.667,height*.33,width*.333,height*.667);
-  
-  //extend ends (challenge4)
-  line(width*.333,height*.333,width*.667,0);
-  line(width*.667,height*.333,width,height*.667);
-  line(width*.667,height*.667,width*.333,height);
-  line(width*.333,height*.667,0,height*.333);
+  line(250,100,350,100);
+  line(350,100,350,200);
+  line(350,200,450,200);
+  line(450,200,450,300);
+  line(450,300,350,300);
+  line(350,300,350,400);
+  line(350,400,250,400);
+  line(250,400,250,300);
+  line(250,300,150,300);
+  line(150,300,150,200);
+  line(150,200,250,200);
+  line(250,200,250,100);
 }
 
 function draw() {

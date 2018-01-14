@@ -4,20 +4,15 @@ function setup() {
 
   for(var i = 400,j=0; i >=0;i = i - 4,j= j + 4){
     stroke(173,27,8)
+    
+    //red lines
     line(0,i,j,400);
     //line(x,y,x,y)
-
     line(i,0,400,j);
-
-    line(j,400,400,j);
-    line(0,i,i,0);
-
+    //line(j,400,400,j);
+    //line(0,i,i,0);
   }
 
-
-
-
-  
 
   //black on sides
   for(var i = 0, j = 400,counter = 0; i <400;i++,j++, counter++){ //looks cool
